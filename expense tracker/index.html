@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- <video autoplay muted loop id="myVideo">
+        <source src="expense tracker/7535085-hd_1920_1080_25fps.mp4" type="video/mp4">
+      </video> -->
+    <h1>Expense Tracker</h1>
+    <div class="container">
+        <h4>Your Blance</h4>
+        <h1 id="blance">$0.00</h1>
+
+
+        <div class="income-expense-container">
+            <div class="">   
+                <h4>Income</h4>
+                <p id="money-plus" class="money-plus">
+                    +$0.00
+                </p>
+            </div>
+
+            <!-- expensecreter -->
+            <div class="money">
+                <h4>Expense</h4>
+                <p id="money-minus" class="money-minus">
+                -$0.00
+            </p>
+            </div>      
+        </div>
+        <h3>History</h3>
+        <ul id="list" class="list">
+            <li class="minus">
+                Cash <span>-$200</span> 
+                <button class="delete-btn">X</button>
+            </li>
+        </ul>
+
+        <h3>Add New Transition</h3>
+        <form action="" id="form">
+            <div class="form-control">
+                <label for="Text">Text</label>
+                <input type="text" id="text" placeholder="Enter text..">
+            </div>
+            
+
+            <div class="form-control">
+                <label for="Amount">Amount <br>(negative -expense , postive -income)</label>
+                <input type="number" id="amount" placeholder="Enter Amount..">
+            </div>
+
+            
+            <button  type="submit" class="btn">All Trasactions</button>
+        </form>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
